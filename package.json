@@ -1,18 +1,16 @@
 {
-  "name": "study-06",
+  "name": "shopping-list-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "쇼핑 리스트 웹 앱",
   "main": "test-shopping.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test-shopping.js"
   },
-  "keywords": [],
+  "keywords": ["shopping", "list", "html", "localStorage"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "jsdom": "^29.1.1",
-    "playwright": "^1.60.0",
-    "pptxgenjs": "^4.0.1"
+    "playwright": "^1.60.0"
   }
 }
